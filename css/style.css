@@ -104,20 +104,34 @@ header {
 /* Quarta sezione */
 .gray {
     background-color: #D3D3D3;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
 }
-.green >* {
-    background-color: #228B22;
+.green >*:not(button) {
      width: calc(70% - 40px); 
-     height: 600px;
     margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+h3 {
+    background-image: url(../img/stars.svg);
+    background-size: 60%;
+    background-position: center;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.medium {
+    background-color: #7289DA;
+    margin-left: 400px;
+    border-color: #7289DA;
+    color: white;
+    margin-bottom: 50px;
 }
 footer {
     background-color:#23272A;
     padding: 10px;
-    margin-top: -20px;
+    margin-top: -70px;
 }
 .row4 > .col-big1 {
     background-color: #F08080;
