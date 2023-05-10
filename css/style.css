@@ -9,9 +9,9 @@ body {
     font-family: 'Whitney Light', sans-serif;
 }
 /* Debug  */
-.debug {
+/* .debug {
   border: 1px dashed black;
-}
+} */
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -23,15 +23,15 @@ body {
 }
 /* Nav bar  */
 .row1 > * {
-   padding: 5px;
+   padding: 15px;
 }
 .nav {
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 30px;
 }
 nav > ul {
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 header {
     background-color: #255EE9;
@@ -54,11 +54,11 @@ header {
     background-color: white;
     color: black;
     border-color: white;
+    margin-right: 30px;
 }
 .big {
     background-color: #23272A;
     color: white;
-    margin-left: 15px;
 }
 /* Seconda parte del Header */
 .header2 {
@@ -73,7 +73,8 @@ header {
     color: white;
     text-align: center;
     font-size: 1.5em;
-    line-height: 20px;
+    line-height: 30px;
+    font-weight: bolder;
 }
 /* Fine Header */
 /* Inizio Main  */
@@ -117,12 +118,13 @@ header {
     padding: 20px;
 }
 /* Button */
-main > h3 {
+h3 {
     background-image: url(../img/stars.svg);
     background-size: 60%;
     background-position: center;
     font-size: 2em;
     margin-bottom: 50px;
+    font-weight: bolder;
 }
 .medium {
     background-color: #7289DA;
@@ -139,11 +141,11 @@ footer {
     margin-top: -70px;
 }
 .row4 > .col-big1 {
-    background-color: #F08080;
     height: 400px;
     width: 30%;
 }
-.col-big1 > h3 {
+/* Social e language */
+.col-big1 > h4 {
     color: #6778BD;
     font-size: 1.5em;
 }
@@ -153,27 +155,49 @@ footer {
 span {
     color: white;
 }
+i {
+    color: white;
+    padding-right: 20px;
+    margin-top: 20px;
+}
 .row4 > .col-big2 {
-    background-color: #20B2AA;
     height: 400px;
     width: 70%;
+}
+/* Menù link */
+.list {
+    color: white;
+    text-align: left;
+    line-height: 30px;
+    list-style:none;
+    font-weight: bolder;
+}
+.title {
+    color: #6778BD;
 }
 .row5 > .col-small {
     width: 25%;
     height: 400px;
-    border: 1px dashed white;
 }
 hr {
     margin-top: 10px;
+    border-color:  #6778BD; 
 }
+/* Logo e Login */
 .row6 {
-    background-color: #7FFFD4;
     justify-content: space-between;
 }
-.row6 > * {
-    background-color: #FFB6C1;  
+.row6 > * { 
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.footer {
+    background-color:  #6778BD;
+    color: white;
+    padding: 10px;
+    border-color: #6778BD;
+    margin-top: 10px;
+}
+/* Fine Footer  */
 
